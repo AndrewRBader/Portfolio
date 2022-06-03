@@ -8,7 +8,7 @@ function Header(){
             <h2>Software Engineer</h2>
         </section>
         <section className = "portfolio-site">
-            <h2>Portfolio</h2>
+            <h2>Professional Portfolio</h2>
         </section>
         <section className = "about-me">
             <p>brand statement/about me</p>

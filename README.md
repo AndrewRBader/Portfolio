@@ -1,4 +1,4 @@
-github pages: https://andrewrbader.github.io/Portfolio/
+netlify: https://andrew-bader-portfolio.netlify.app/
 
 
 

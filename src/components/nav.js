@@ -3,22 +3,23 @@ function Nav(){
         <>
             <section className = "frameworks-tech">
                 <div>
-                    <h2>Apps with Different Frameworks</h2>
+                    <a><button>Apps with Different Frameworks</button></a>
                 </div>
             </section>
             <section className = "open-source-projects">
                 <div>
-                    <h2>Open Source Projects</h2>
+                    <a><button>Open Source Projects</button></a>
                 </div>
             </section>
             <section className = "game-apps">
                 <div>
-                    <h2>Game Web Apps</h2>
+                    <a><button>Game Web Apps</button></a>
                 </div>
             </section>
             <section className = "algorithms-playground">
                 <div>
-                    <h2>Algorithm Playground App</h2>
+                    <a href = "https://algorithms-playground-bader.herokuapp.com/" target = "_blank" rel="noreferrer">
+                        <button>Algorithm Playground App</button></a>
                 </div>
             </section>
         </>

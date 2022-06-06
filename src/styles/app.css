@@ -1,0 +1,21 @@
+.App {
+    margin: auto;
+    margin-top: 10px;
+    max-width: 95%;
+    height: 750px;
+    padding: 10px;
+    border-style: solid;
+}
+
+.header{
+    margin-top: 5px;
+    border-style:solid;
+}
+.nav{
+    margin-top: 5px;
+    border-style:solid;
+}
+.footer{
+    margin-top: 5px;
+    border-style:solid;
+}

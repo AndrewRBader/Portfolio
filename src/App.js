@@ -1,10 +1,11 @@
 import Header from "./components/header";
 import Nav from "./components/nav";
 import Footer from "./components/footer";
+import "./styles/app.css";
 
 function App() {
   return (
-    <body className="App">
+    <main className="App">
       <section className = "header">
         <Header/>
       </section>
@@ -14,7 +15,7 @@ function App() {
       <section className = "footer">
         <Footer/>
       </section>
-    </body>
+    </main>
   );
 }
 

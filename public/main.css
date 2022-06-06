@@ -1,0 +1,8 @@
+/* main html styles */
+body {
+    border-style: solid;
+    min-height: 800px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}

@@ -1,0 +1,42 @@
+#footer {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    text-align: center;
+    height: 100px
+}
+
+.academic-professional-background {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    border-style: solid;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    border-style: solid;
+}
+
+.publications {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    border-style: solid;
+}
+
+.footer-button{
+    border-style: solid;
+    font-size: 30px;
+    height: 50%;
+    overflow-wrap: break-word;
+    overflow: scroll;
+}
+
+@media only screen and (max-width: 649px) {
+    .footer-button {
+        font-size: 20px;
+    }
+}

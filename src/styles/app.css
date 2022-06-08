@@ -9,13 +9,22 @@
 
 .header{
     margin-top: 5px;
-    border-style:solid;
+    border-style: solid;
 }
+
 .nav{
     margin-top: 5px;
-    border-style:solid;
+    border-style: solid;
+    height: 20%;
 }
+
+@media only screen and (max-width: 649px) {
+    .nav {
+        height: 50%;
+    }
+}
+
 .footer{
     margin-top: 5px;
-    border-style:solid;
+    border-style: solid;
 }

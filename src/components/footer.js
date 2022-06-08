@@ -1,30 +1,22 @@
+import '../styles/footerStyles.css';
+
 function Footer(){
     return(
         <>
-            <section className = "Academic-Work Background">
-                <div className = "resume-page-button">
-                    <button>Resume</button>
-                </div>
-                <div className = "linkedin-link">
-                    <h3 id = "linkedin-link">LinkedIn</h3>
-                </div>
-            </section>
-            <section className = "projects">
-                <div className = "project-page-button">
-                    <button>Projects</button>
-                </div>
-                <div className = "github-link">
-                    <h3 id = "github-link">GitHub</h3>
-                </div>
-            </section>
-            <section className = "publications">
-                <div className = "publications-page-button">
-                    <button>Publications</button>
-                </div>
-                <div className = "googleScholar-link">
-                    <h3 id = "googleScholar-link">Google Scholar</h3>
-                </div>
-            </section>
+            <main id = "footer">
+                <span className = "academic-professional-background">
+                    <button className = "footer-button">Resume</button>
+                    <a class = "linkedin link">LinkedIn</a>
+                </span>
+                <span className = "projects">
+                    <button className = "footer-button">Projects</button>
+                    <a class = "github link">GitHub</a>
+                </span>
+                <span className = "publications">
+                    <button className = "footer-button">Publications</button>
+                    <a class = "google-scholar link">Google Scholar</a>
+                </span>
+            </main>
         </>
     )
 }

@@ -1,0 +1,38 @@
+#nav-main{
+    background-color: aqua;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: scroll;
+    padding-bottom: 2px;
+}
+
+.nav-span {
+    width: 49%;
+    border-style: solid;
+    margin:auto;
+    height: 45%;
+}
+
+@media only screen and (max-width: 649px) {
+
+    #nav-main {
+        padding-bottom: 0px;
+    }
+
+    .nav-span {
+        width: 99%;
+        height: 25%;
+    }
+}
+
+.nav-button{
+    overflow-wrap: break-word;
+    overflow: scroll;
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
